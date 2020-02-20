@@ -1,0 +1,40 @@
+$blue: #358DF7;
+$grey: #E7E5E7;
+$light-grey: #F8F8F6;
+$yellow: #FBE08C;
+
+div {
+  color: $blue;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+h6 {
+  cursor: pointer;
+}
+
+h6:hover {
+  background-color: $grey;
+}
+
+.app {
+  margin: 25px auto;
+  width: 75%;
+}
+
+.selected {
+  background-color: $yellow;
+  width: 100%
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  border-style: double;
+  border-width: 2px;
+  border-color: black;
+}
